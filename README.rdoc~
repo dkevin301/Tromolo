@@ -1,0 +1,14 @@
+Pushing to GitHub
+Login to GitHub and create a new repository
+Initialize a local git repo in the current local folder that you’re in: git init
+Add file(s) to the local git repo (“.” is a wildcard): git add . 
+Commit your files into your local repo: git commit -m <nameOfCommit>
+Note: Used “Baseline” as <nameOfCommit>. Spaces in between words must be enclosed in single/double quotations
+Update: Found out that -m is also used for entering your commit message
+Add the remote repository (the repository on GitHub has to be created before this step): git remote add <nameOfPush> https://github.com/dkevin301/App01.git 
+Note: Used “origin” as <nameOfPush>
+After this point you can use the <nameOfPush> instead of the URL to get the files
+Push the files up that we want to share onto a specific stream: git push -u <nameOfPush> <nameOfStream>
+Note: Used “origin” as <nameOfPush>
+Note: Used “master” as <nameOfStream>
+Note: “master” has to be used as <nameOfStream> when there is nothing on GitHub
